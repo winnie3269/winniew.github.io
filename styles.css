@@ -1,0 +1,85 @@
+body {
+  background:lavender;
+  font-family:Roboto,Helvetica,sans-serif;
+  color:purple;
+  text-shadow: 0 5px 5px #ccc;
+  padding:16px;
+  border: 5px solid pink;
+}
+
+header{
+  background: lavender;
+  padding: 5px;
+}
+
+nav{
+  background:white;
+  padding:30px;
+}
+
+#vitals{
+  background:grey;
+}
+
+#lists{
+  background:grey;
+  padding:5px;
+}
+
+section{
+  background:white;
+  padding:16px;
+  margin:16px;
+  border: 1px solid pink;
+  border-radius: 10px;
+  box-shadow:0 2px 4px gray;
+}
+
+h2{
+  color:black;
+}
+
+span{
+  color:purple;
+}
+
+.summary-header{
+  font-size:30px;
+}
+
+.best{
+  font-style:italic;
+  font-weight:bold;
+}
+#profile-photo{
+  border-radius:50%;
+  position: absolute;
+  top:50px;
+  left:50%;
+  margin left: 75px;
+}
+
+#gal{
+  border-radius:50%;
+}
+
+nav a {
+  text-decoration:none;
+  font-size:24px;
+}
+
+h1, h2{
+  font-weight:lighter;
+}
+
+img{
+  display: block;
+  border-radius:50%
+  transition: tranform 1s;
+}
+
+img:hover{
+  color: red;
+  transform: rotateZ(1080deg);
+  transform-origin:50% 50%;
+}
